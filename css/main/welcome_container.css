@@ -1,0 +1,258 @@
+
+.nav .main_nav {
+    font-weight: 600;
+}
+
+.yellow_underline {
+    right: 83.82%;
+}
+
+.dv_title {
+    position: absolute;
+    top: 42px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #000500;
+}
+
+.highlighted {
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content {
+    position: absolute;
+    width: 1186.79px;
+    height: 627.2px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 94.79px;
+}
+
+.dv_subtitle {
+    position: absolute;
+    top: 260px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000500;
+}
+
+.vektor {
+    position: absolute;
+    width: 543.79px;
+    height: 627.2px;
+    right: 0px;
+    bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vektor-circle {
+    position: absolute;
+    width: 543.79px;
+    height: 543.79px;
+
+    border-radius: 50%;
+    background: radial-gradient(240.9% 208.36% at 79% 23.78%, #F15656 0%, #F6BA13 88.63%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 10px 20px rgba(190, 35, 35, 0.4), inset 2px 2px 20px rgba(255, 248, 228, 0.4), inset -6px -6px 20px #FFF8E4;
+}
+
+.vektor-img {
+    position: absolute;
+    width: 364.29px;
+    height: 627.2px;
+    margin-bottom: 40px;
+
+}
+.more-info-butt, .proposals-butt {
+    position: absolute;
+    width: 225.81px;
+    height: 48.25px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 0px 8.46509px 16.9302px rgba(242, 188, 27, 0.6), inset 1.69302px 1.69302px 3.38604px rgba(255, 248, 228, 0.25), inset -3.38604px -3.38604px 6.77207px rgba(255, 248, 228, 0.85);
+    border-radius: 30px;
+    border: none;
+}
+
+.more-info-butt {
+    top: 359px;
+}
+
+.more-info-butt a, .proposals-butt a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #000500;
+}
+
+.offers-butt, .our-team-butt {
+    box-sizing: border-box;
+    position: absolute;
+    width: 225.81px;
+    height: 48.25px;
+    border: 2px solid #F6BA13;
+    border-radius: 30px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 44px;
+
+    text-decoration: none;
+    color: #F6BA13;
+    text-align: center;
+}
+
+.offers-butt {
+    left: 239px;
+    top: 359px;
+}
+
+.yellow-rect {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35), inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+    border-radius: 15px;
+}
+
+#offers-slider {
+    position: absolute;
+    width: 603px;
+    height: 90px;
+    left: 715px;
+    top: 214px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #F6BA13;
+    text-transform: uppercase;
+}
+
+.priveleges {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 120px;
+    left: 0px;
+    top: 452px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comfort-format,
+.comfort-process,
+.choosing-master,
+.love-german {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(50% - 10px);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.yellow-rect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35), inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+    border-radius: 15px;
+}
+
+.yellow-rect img {
+    width: 30px;
+    height: 30px;
+}
+
+.comfort-format h3,
+.comfort-process h3,
+.choosing-master h3,
+.love-german h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 70px; /* Відступ тексту від yellow-rect на 20 пікселів */
+    text-align: left;
+}
+
+
+@keyframes circleFading {
+    0% {
+        width: 400px;
+        height: 400px;
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    25% {
+        width: 500px;
+        height: 500px;
+        opacity: 0.6;
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        width: 600px;
+        height: 600px;
+        opacity: 0.4;
+        transform: translate(-50%, -50%);
+    }
+
+    75% {
+        width: 650px;
+        height: 650px;
+        opacity: 0.2;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        width: 700px;
+        height: 700px;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #E77728;
+    animation-name: circleFading;
+    animation-duration: 2800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 910px;
+    top: 336px;
+}
+
+footer {
+    left: 0px;
+    top: 6975px;
+}

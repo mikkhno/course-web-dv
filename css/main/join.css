@@ -1,0 +1,52 @@
+.join-container{
+    position: absolute;
+    width: 1440px;
+    height: 790px;
+    left: 0px;
+    top: 6188.44px;
+}
+
+.left-content{
+    position: absolute;
+    width: 500px;
+    height: 326px;
+    left:135px;
+    bottom:300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.adventures-text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+
+    color: #000500;
+}
+
+.join-us-text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000500;
+}
+
+.join-container .vektor-circle{
+    display: flex;
+    align-self: center;
+    right: 135px;
+    top:100px;
+}
+
+.join-container .vektor-img{
+
+    top: -51px;
+    left: 85px;
+}
