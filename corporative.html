@@ -186,20 +186,20 @@
           професійний розвиток всіх<br>
           працівників компанії, згідно з<br>
           цілями й напрямком організації.</p>
-        <h1>+</h1>
+        <h1 class="plus">+</h1>
       </div>
 
-      <div class="question-2">
+      <div class="question-1">
         <h3>Як розробляється<br>
           <span class="resized">програма навчання?</span></h3>
         <p class="hidden">При розробці програми враховуються побажання та цілі клієнта,<br>
           формат і інтенсивність навчання, навички та рівень знань.</p>
-        <!--                <h1>+</h1>-->
+          <h1 class="plus">+</h1>
       </div>
     </div>
 
     <div class="second-row">
-      <div class="question-3">
+      <div class="question-2">
         <h3>Чому варто обрати<br><span class="resized">
                     Deutsch Vektor?</span></h3>
 
@@ -207,17 +207,18 @@
           загальноєвропейськими рекомендаціями<br>з мовної освіти (GERF),
           має свою платформу<br>вивчення слів і застосовує<br>
           різні методичні підходи відповідно до цілей!</p>
-        <!--                <h1>+</h1>-->
+         <h1 class="plus">+</h1>
       </div>
 
-      <div class="question-4">
+      <div class="question-2">
         <h3><span class="underlined">Вартість навчання</span><br>
           для корпоративних клієнтів?</h3>
 
-        <p class="hidden">Вартість навчання варіюється в залежності від<br>формату та виду навчання.<br>
+        <p class="hidden">Вартість навчання варіюється в залежності<br>
+          від формату та виду навчання.<br>
           Є програми лояльності.
         </p>
-        <!--                <h1>+</h1>-->
+        <h1 class="plus">+</h1>
       </div>
     </div>
 
@@ -266,5 +267,32 @@
   </div>
 
 </footer>
+
+<script>
+
+  const toggleBlocks = document.querySelectorAll('.question-1');
+  const toggleBlocks2 = document.querySelectorAll('.question-2');
+
+  toggleBlocks.forEach((toggleBlock) => {
+    const blockContent = toggleBlock.querySelector('.hidden');
+    const toggleText = toggleBlock.querySelector('.plus');
+
+    toggleBlock.addEventListener('click', () => {
+      blockContent.classList.toggle('show');
+      toggleText.textContent = blockContent.classList.contains('show') ? '–' : '+';
+    });
+  });
+
+  toggleBlocks2.forEach((toggleBlock2) => {
+    const blockContent = toggleBlock2.querySelector('.hidden');
+    const toggleText = toggleBlock2.querySelector('.plus');
+
+    toggleBlock2.addEventListener('click', () => {
+      blockContent.classList.toggle('show');
+      toggleText.textContent = blockContent.classList.contains('show') ? '–' : '+';
+    });
+  });
+
+</script>
 
 </html>
