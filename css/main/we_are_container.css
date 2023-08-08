@@ -36,13 +36,7 @@
     transform: translate(-50%, -50%);
 }
 
-.message-format {
-    position: absolute;
-    width: 390px;
-    height: 218px;
-    left: 265px;
-    top: 129px;
-}
+
 
 .message-box-white,
 .message-box-60op,
@@ -157,26 +151,35 @@
     bottom: 56px;
 }
 
+.message-format {
+    position: absolute;
+    width: 390px;
+    height: 218px;
+    left: 18.4%;
+    top: 12.9%;
+}
+
+
 .message-enjoy {
     position: absolute;
     width: 390px;
     height: 218px;
-    left: 785px;
-    top: 84px;
+    left: 54.5%;
+    top: 8.5%;
 }
 
 .message-master {
     position: absolute;
     width: 390px;
     height: 218px;
-    left: 267px;
-    top: 653px;
+    left: 18.5%;
+    top: 65.3%;
 }
 
 .message-love {
     position: absolute;
     width: 390px;
     height: 218px;
-    left: 785px;
-    top: 684px;
+    left: 54.5%;
+    top: 68.4%;
 }
